@@ -1,0 +1,45 @@
+html,body{
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#title{
+  font-family: 'Risque', serif;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 40px;
+}
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 140px;
+}
+
+#grid-panel{
+  background-color: white;
+  border: 2px solid black;
+  height: 690px;
+  width: 680px;
+  position: relative;
+  /* top: 17%;
+  left: 40%; */
+  border-radius: 5px;
+  display: grid;
+  margin-bottom: 20px;
+}
+
+
+.grid{
+  border: 0.1px solid rgb(112, 110, 110);
+  cursor: pointer;
+}
+
+#panel-options{
+  height: 600px;
+  width: 450px;
+  border: 2px solid black;
+}
