@@ -1,4 +1,4 @@
-let cellNo = 4;//max value = 34 min value = 1
+let cellNo = 16;//max value = 34 min value = 1
 
 
 const gridPanel = document.querySelector("#grid-panel");
